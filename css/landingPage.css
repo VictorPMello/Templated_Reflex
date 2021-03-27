@@ -1,0 +1,30 @@
+p {
+    margin: 2rem auto 5rem;
+    max-width: 65rem;
+}
+
+/** Section.introduction **/
+section.introduction {
+    padding: 5rem 0;
+}
+
+section.introduction img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+}
+
+.introduction-content h1{
+    font-size: 5rem;
+    font-weight: 200;
+}
+/*****/
+
+/* Section.description */
+section.description{
+    padding: 5rem 0;
+    backdrop-filter: contrast(97%);
+    
+}
+/*****/
