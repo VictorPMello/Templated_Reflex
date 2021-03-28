@@ -39,7 +39,7 @@ body{
 
 
 body, textarea, input, button{    
-    font: 200 2rem 'Nunito';
+    font: 400 2rem 'Nunito';
     color: var(--color-text);
 }
 
@@ -64,6 +64,14 @@ body, textarea, input, button{
 
 .btn:hover{
     background-color: rgba(163, 159, 159, 0.171);
+}
+
+.border{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 15%;
+    border-bottom: .2rem solid var(--color-text);
 }
 
 nav{

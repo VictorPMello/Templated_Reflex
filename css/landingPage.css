@@ -1,3 +1,10 @@
+h1{
+    border-spacing: 5rem;
+    font-size: 5rem;
+    font-weight: 200;
+    margin-top: 3rem;
+}
+
 p {
     margin: 2rem auto 5rem;
     max-width: 65rem;
@@ -16,8 +23,7 @@ section.introduction img{
 }
 
 .introduction-content h1{
-    font-size: 5rem;
-    font-weight: 200;
+    margin-top: 0;
 }
 /*****/
 
@@ -26,5 +32,56 @@ section.description{
     padding: 5rem 0;
     backdrop-filter: contrast(97%);
     
+}
+
+section.description > .border{
+    top: 6%;
+}
+
+.description-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 15%);
+    grid-template-rows: repeat(2, 60%);
+    grid-template-areas: "a . b . c"
+                         ". d . e .";
+
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto 7rem;
+}
+
+.description-grid > .border{
+    display: none;
+}
+
+.description-grid .description-grid-content{
+    width: 13rem;
+    height: 13rem;
+    line-height: 13rem;
+    border-radius: 50%;
+    border: .1rem solid var(--color-text);
+    margin: 0 auto;
+    font-size: 3.5rem;
+}
+
+.description-grid .description-grid-content:nth-of-type(1){
+    grid-area: a;
+}
+
+.description-grid .description-grid-content:nth-of-type(2){
+    grid-area: b;
+}
+
+.description-grid .description-grid-content:nth-of-type(3){
+    grid-area: c;
+}
+
+.description-grid .description-grid-content:nth-of-type(4){
+    grid-area: d;
+}
+
+.description-grid .description-grid-content:nth-of-type(5){
+    grid-area: e;
 }
 /*****/
