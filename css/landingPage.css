@@ -2,7 +2,7 @@ h1{
     border-spacing: 5rem;
     font-size: 5rem;
     font-weight: 200;
-    margin-top: 3rem;
+    padding-top: 3rem;
 }
 
 p {
@@ -12,6 +12,7 @@ p {
 
 /** Section.introduction **/
 section.introduction {
+    background-color: var(--color-background);
     padding: 5rem 0;
 }
 
@@ -31,7 +32,7 @@ section.introduction img{
 section.description{
     padding: 5rem 0;
     backdrop-filter: contrast(97%);
-    
+    background-color: var(--color-background);
 }
 
 section.description > .border{
@@ -44,7 +45,6 @@ section.description > .border{
     grid-template-rows: repeat(2, 60%);
     grid-template-areas: "a . b . c"
                          ". d . e .";
-
     justify-content: center;
     align-items: center;
     width: 80%;
@@ -83,5 +83,41 @@ section.description > .border{
 
 .description-grid .description-grid-content:nth-of-type(5){
     grid-area: e;
+}
+/*****/
+
+/** Section.more **/
+section.more{
+    background-color: var(--color-background);
+    padding-bottom: 5rem;
+}
+
+section.more aside {
+    margin-bottom: 5rem;
+}
+
+section.more aside .more-text-content h1,
+.text-transparent h1{
+    padding-top: 5rem;
+}
+
+section.more aside img{
+    width: 100%;
+    height: 60rem;
+    margin-top: 5rem;
+    border-radius: 5rem;
+}
+/*****/
+
+/** Section.text-transparent **/
+section.text-transparent{
+    padding: 5rem 0;
+}
+
+section.text-transparent,
+section.text-transparent a,
+section.text-transparent .border{
+    color: white;
+    border-color: white;
 }
 /*****/
