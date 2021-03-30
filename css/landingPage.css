@@ -31,8 +31,8 @@ section.introduction img{
 /* Section.description */
 section.description{
     padding: 5rem 0;
-    backdrop-filter: contrast(97%);
     background-color: var(--color-background);
+    filter: contrast(90%);
 }
 
 section.description > .border{
@@ -101,6 +101,10 @@ section.more aside .more-text-content h1,
     padding-top: 5rem;
 }
 
+.more-text-content > .borderFirst{
+   padding-top: 6rem;
+}
+
 section.more aside img{
     width: 100%;
     height: 60rem;
@@ -111,7 +115,7 @@ section.more aside img{
 
 /** Section.text-transparent **/
 section.text-transparent{
-    padding: 5rem 0;
+    padding: 10rem 0 15rem;
 }
 
 section.text-transparent,
@@ -119,5 +123,12 @@ section.text-transparent a,
 section.text-transparent .border{
     color: white;
     border-color: white;
+}
+/*****/
+
+/** section.contacts **/
+section.contacts{
+    background-color: var(--color-background);
+    padding: 5rem 0;
 }
 /*****/
