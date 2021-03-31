@@ -130,5 +130,33 @@ section.text-transparent .border{
 section.contacts{
     background-color: var(--color-background);
     padding: 5rem 0;
+    border-bottom: .2rem solid rgb(85, 81, 81);
+}
+
+.links a{
+    display: inline-block;
+    width: 6rem;
+    height: 6rem;
+    line-height: 6rem;
+    border-radius: 50%;
+    border: .2rem solid rgb(85, 81, 81);
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: .3s;
+}
+
+.links a:hover{
+    background-color: rgba(114, 106, 106, 0.137);
+    border: .2rem solid rgb(20, 17, 17);
+}
+
+.links a:hover i{
+    color: black;
+}
+
+.links a i{
+    color: rgb(85, 81, 81);
+    font-size: 2.5rem;
+    transition: .3s;
 }
 /*****/
