@@ -130,7 +130,6 @@ section.text-transparent .border{
 section.contacts{
     background-color: var(--color-background);
     padding: 5rem 0;
-    border-bottom: .2rem solid rgb(85, 81, 81);
 }
 
 .links a{
@@ -158,5 +157,36 @@ section.contacts{
     color: rgb(85, 81, 81);
     font-size: 2.5rem;
     transition: .3s;
+}
+
+aside form {
+    margin: 0 2rem;
+    padding: 3rem 0;
+}
+
+aside form .form-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+
+aside form .form-wraper input,
+aside form .form-wraper textarea{
+    width: 45%;
+    line-height: 4.5rem;
+    padding: 0 1.2rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(85, 81, 81);
+    margin-bottom: 3rem;
+    resize: none;
+}
+
+aside form .form-wraper textarea{
+    width: 100% !important;
+    height: 25rem;
+}
+
+aside form .form-wraper input[type=button]{
+    margin: 0 auto;
+    border-radius: 5rem;
 }
 /*****/

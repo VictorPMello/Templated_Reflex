@@ -121,3 +121,12 @@ nav:hover > i {
 nav .menu {
     display: none;
 }
+
+footer{
+    background-color: var(--color-background);
+    padding: 2rem 0;
+}
+
+footer p{
+    margin: 0 auto;
+}
