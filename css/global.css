@@ -10,6 +10,7 @@
     --color-background: #f3f3f3;
     --color-menu-primary: #f8f8f8;
     --color-text: #3b3939;
+    --text-color-primary: rgb(224, 218, 218);
 }
 
 html{
@@ -35,6 +36,7 @@ html{
 
 body{
     text-align: center;
+    color: var(--color-menu-primary);
 }
 
 
